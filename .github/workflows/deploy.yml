@@ -12,10 +12,10 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2  # Checkout the code in the repository
+      uses: actions/checkout@v3  # Update to the latest version
 
     - name: Set up Node.js
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v3  # Update to the latest version
       with:
         node-version: '14'  # Specify the version of Node.js (or your preferred version)
 
@@ -27,9 +27,13 @@ jobs:
       run: |
         npm run build  # Run your build command (replace with your specific build command)
 
+    - name: Copy index.html to 404.html
+      run: |
+        cp build/index.html build/404.html  # For SPAs like React, this is often needed
+
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@v4
       with:
         branch: gh-pages  # Specify the branch where the built files should be deployed (commonly 'gh-pages')
-        folder: dist  # Specify the directory containing the built files (e.g., 'dist', 'build', etc.)
+        folder: build  # Specify the directory containing the built files (e.g., 'dist', 'build', etc.)
         token: ${{ secrets.GITHUB_TOKEN }}  # GitHub automatically provides this token for authentication
