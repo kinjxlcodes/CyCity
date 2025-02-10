@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.card-stacker:hover .card{
+    margin-left: 10px;
+  }
+
+html {
+    scroll-behavior: smooth;
+  }
