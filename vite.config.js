@@ -11,6 +11,6 @@ export default defineConfig({
       '@': path.resolve(__dirname, 'src'), // This resolves '@' to the 'src' folder
     },
   },
-  base: '/CyCity/', // Change this if deploying to a subfolder (e.g., '/my-app/')
+  
 })
 
