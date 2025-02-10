@@ -35,5 +35,5 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@v4
       with:
         branch: gh-pages  # Specify the branch where the built files should be deployed (commonly 'gh-pages')
-        folder: build  # Specify the directory containing the built files (e.g., 'dist', 'build', etc.)
+        folder: dist  # Specify the directory containing the built files (e.g., 'dist', 'build', etc.)
         token: ${{ secrets.GITHUB_TOKEN }}  # GitHub automatically provides this token for authentication
