@@ -1,4 +1,7 @@
 import React from 'react';
+import erp1 from '../assets/erp1.jpg';
+import erp2 from '../assets/erp2.jpg';
+import erp3 from '../assets/erp3.jpg';
 
 const Erp = () => {
   return (
@@ -8,17 +11,17 @@ const Erp = () => {
           {/* Left Column: Images stacked vertically */}
           <div className="flex flex-col justify-center items-center space-y-6">
             <img
-              src="src/assets/erp1.jpg" // Replace with your actual image path
+              src={erp1} // Replace with your actual image path
               alt="ERP Ecosystem 1"
               className="rounded-lg shadow-lg w-full h-auto object-cover"
             />
             <img
-              src="src/assets/erp2.jpg" // Replace with your actual image path
+              src={erp2} // Replace with your actual image path
               alt="ERP Ecosystem 2"
               className="rounded-lg shadow-lg w-full h-auto object-cover"
             />
             <img
-              src="src/assets/erp3.jpg" // Replace with your actual image path
+              src={erp3} // Replace with your actual image path
               alt="ERP Ecosystem 3"
               className="rounded-lg shadow-lg w-full h-auto object-cover"
             />

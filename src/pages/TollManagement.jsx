@@ -1,4 +1,7 @@
 import React from 'react';
+import tm1 from '../assets/TollManagement1.png'
+import tm2 from '../assets/portfolio-details-1.png'
+import tm3 from '../assets/TollManagement2.png'
 
 
 const TollManagement = () => {
@@ -8,17 +11,17 @@ const TollManagement = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         <div className="flex flex-col justify-center items-center space-y-6">
             <img
-              src="src/assets/TollManagement1.png" // Replace with your actual image path
+              src={tm1} // Replace with your actual image path
               alt="Toll Management 1"
               className="rounded-lg shadow-lg w-full h-auto object-cover"
             />
             <img
-              src="src/assets/portfolio-details-1.png" // Replace with your actual image path
+              src={tm2} // Replace with your actual image path
               alt="Toll Management 2"
               className="rounded-lg shadow-lg w-full h-auto object-cover"
             />
             <img
-              src="src/assets/TollManagement2.png" // Replace with your actual image path
+              src={tm3} // Replace with your actual image path
               alt="Toll Management 2"
               className="rounded-lg shadow-lg w-full h-auto object-cover"
             />

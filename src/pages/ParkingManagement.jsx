@@ -1,4 +1,6 @@
 import React from 'react'
+import pm1 from "../assets/parking1.jpg";
+import pm2 from "../assets/parking2.jpg";
 
 const ParkingManagement = () => {
   return (
@@ -8,12 +10,12 @@ const ParkingManagement = () => {
           {/* Left Column: Images stacked vertically */}
           <div className="flex flex-col justify-center items-center space-y-6">
             <img
-              src="src/assets/parking1.jpg" // Replace with your actual image path
+              src={pm1} // Replace with your actual image path
               alt="Parking Management 1"
               className="rounded-lg shadow-lg w-full h-auto object-cover"
             />
             <img
-              src="src/assets/parking2.jpg" // Replace with your actual image path
+              src={pm2} // Replace with your actual image path
               alt="Parking Management 2"
               className="rounded-lg shadow-lg w-full h-auto object-cover"
             />

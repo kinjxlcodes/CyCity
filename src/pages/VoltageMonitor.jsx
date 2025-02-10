@@ -1,4 +1,8 @@
 import React from 'react'
+import v1 from '../assets/voltage1.jpg'
+import v2 from '../assets/voltage2.jpg'
+import v3 from '../assets/voltage monitor.png'
+import v4 from '../assets/voltagemonitor2.png'
 
 const VoltageMonitor = () => {
   return (
@@ -8,22 +12,22 @@ const VoltageMonitor = () => {
           {/* Left Column: Images stacked vertically */}
           <div className="flex flex-col justify-center items-center space-y-6">
             <img
-              src="src/assets/voltage1.jpg" // Replace with your actual image path
+              src={v1} // Replace with your actual image path
               alt="Voltage Monitoring 1"
               className="rounded-lg shadow-lg w-full h-auto object-cover"
             />
             <img
-              src="src/assets/voltage2.jpg" // Replace with your actual image path
+              src={v2} // Replace with your actual image path
               alt="Voltage Monitoring 2"
               className="rounded-lg shadow-lg w-full h-auto object-cover"
             />
             <img
-              src="src/assets/voltage monitor.png" // Replace with your actual image path
+              src={v3} // Replace with your actual image path
               alt="Voltage Monitoring 2"
               className="rounded-lg shadow-lg w-full h-auto object-cover"
             />
             <img
-              src="src/assets/voltagemonitor2.png" // Replace with your actual image path
+              src={v4} // Replace with your actual image path
               alt="Voltage Monitoring 2"
               className="rounded-lg shadow-lg w-full h-auto object-cover"
             />

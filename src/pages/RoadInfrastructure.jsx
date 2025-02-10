@@ -1,4 +1,6 @@
 import React from 'react';
+import ri1 from '../assets/Road1.jpg';
+import ri2 from '../assets/Road2.jpg'
 
 const RoadInfrastructure = () => {
   return (
@@ -8,12 +10,12 @@ const RoadInfrastructure = () => {
           {/* Left Column: Images stacked vertically */}
           <div className="flex flex-col justify-center items-center space-y-6">
             <img
-              src="src/assets/Road1.jpg" // Replace with your actual image path
+              src={ri1} // Replace with your actual image path
               alt="Toll Management 1"
               className="rounded-lg shadow-lg w-full h-auto object-cover"
             />
             <img
-              src="src/assets/Road2.jpg" // Replace with your actual image path
+              src={ri2} // Replace with your actual image path
               alt="Toll Management 2"
               className="rounded-lg shadow-lg w-full h-auto object-cover"
             />

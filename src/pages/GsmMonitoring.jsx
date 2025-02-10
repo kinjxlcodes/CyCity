@@ -1,4 +1,7 @@
 import React from 'react'
+import gsm1 from '../assets/gsm1.jpg'
+import gsm2 from '../assets/gsm2.jpeg'
+import gsm3 from '../assets/gsm3.jpg'
 
 const GsmMonitoring = () => {
   return (
@@ -8,17 +11,17 @@ const GsmMonitoring = () => {
           {/* Left Column: Images stacked vertically */}
           <div className="flex flex-col justify-center items-center space-y-6">
             <img
-              src="src/assets/gsm1.jpg" // Replace with your actual image path
+              src={gsm1} // Replace with your actual image path
               alt="GSM Theft Monitoring 1"
               className="rounded-lg shadow-lg w-full h-auto object-cover"
             />
             <img
-              src="src/assets/gsm2.jpeg" // Replace with your actual image path
+              src={gsm2} // Replace with your actual image path
               alt="GSM Theft Monitoring 2"
               className="rounded-lg shadow-lg w-full h-auto object-cover"
             />
             <img
-              src="src/assets/gsm3.jpg" // Replace with your actual image path
+              src={gsm3} // Replace with your actual image path
               alt="GSM Theft Monitoring 2"
               className="rounded-lg shadow-lg w-full h-auto object-cover"
             />

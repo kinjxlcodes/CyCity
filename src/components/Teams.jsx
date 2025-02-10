@@ -1,4 +1,8 @@
 import React from "react";
+import team1 from "../assets/team-1.jpg"
+import team2 from "../assets/team-2.jpg"
+import team3 from "../assets/team-3.jpg"
+import team4 from "../assets/team-4.jpg"
 
 const Teams = () => {
   return (
@@ -19,7 +23,7 @@ const Teams = () => {
           <div>
             <img
               className="w-full"
-              src="src/assets/team/team-1.jpg"
+              src={team1}
               alt="Merwin Furtador"
             />
             <div className="text-center mt-4">
@@ -31,7 +35,7 @@ const Teams = () => {
           <div>
             <img
               className="w-full"
-              src="src/assets/team/team-2.jpg"
+              src={team2}
               alt="Mamtha Raj"
             />
             <div className="text-center mt-4">
@@ -43,7 +47,7 @@ const Teams = () => {
           <div>
             <img
               className="w-full"
-              src="src/assets/team/team-3.jpg"
+              src={team3}
               alt="Shashank Bharadwaj"
             />
             <div className="text-center mt-4">
@@ -55,7 +59,7 @@ const Teams = () => {
           <div>
             <img
               className="w-full"
-              src="src/assets/team/297076686_5331457363575858_1522669830894323800_n.jpg"
+              src={team4}
               alt="Team Member"
             />
             <div className="text-center mt-4">

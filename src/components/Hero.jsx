@@ -1,5 +1,6 @@
 import React from 'react';
 import { Typewriter } from 'react-simple-typewriter';
+import video from '../assets/background.mp4'
 
 
 const Hero = () => {
@@ -12,7 +13,7 @@ const Hero = () => {
                 muted
                 className="absolute top-0 left-0 w-full h-full object-cover z-[-1] opacity-70"
             >
-                <source src="src/assets/18069235-uhd_3840_2160_24fps.mp4" type="video/mp4" />
+                <source src={video} type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
 

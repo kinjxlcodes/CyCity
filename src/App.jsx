@@ -19,7 +19,7 @@ import Cookies from './pages/Cookies'
 
 const App = () => {
   return (
-    <Router>
+    <Router basename='/CyCity'>
       <Navbar />
       <Routes>
         <Route path="/" element={<>

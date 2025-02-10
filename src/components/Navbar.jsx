@@ -1,8 +1,9 @@
 import React, { useState, useEffect, useRef } from "react";
-import { Collapse, IconButton, Typography } from "@material-tailwind/react";
+import { Collapse, IconButton } from "@material-tailwind/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import logo from '../assets/apple-touch-icon.png'; // Import the logo
 
 // NavList Component for the Links
 const NavList = ({ position, setPosition }) => {
@@ -99,7 +100,8 @@ const Navbar = () => {
           <div className="flex items-center justify-between h-16">
             <div className="w-full justify-between flex items-center">
               <a className="flex-shrink-0" href="/">
-                <img className="w-16 h-16" src="src/assets/apple-touch-icon.png" alt="Workflow" />
+                {/* Updated logo import */}
+                <img className="w-16 h-16" src={logo} alt="Workflow" />
               </a>
               {/* Desktop Links */}
               <div className="hidden md:block">
