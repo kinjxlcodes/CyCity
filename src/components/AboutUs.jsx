@@ -3,7 +3,7 @@ import { Eye, UserRound, ShieldIcon, Book } from 'lucide-react';
 
 const AboutUs = () => {
   return (
-    <section id="about" className="py-12">
+    <section id="about" className="py-12 mt-6">
       <div className="container mx-auto px-4">
         <div className="mb-8 text-center">
           <h2 className="text-4xl font-bold md:text-7xl">About Us</h2>

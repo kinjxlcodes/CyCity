@@ -91,6 +91,7 @@ const Navbar = () => {
   }, []);
 
   return (
+    <div className="w-full bg-gradient-to-r from-[#0266CC] to-[#1A8EF4]">
     <div className="relative w-full px-6 py-3 ">
       {/* Gradient Glow Effect Behind the Navbar */}
       
@@ -132,6 +133,7 @@ const Navbar = () => {
           </div>
         </Collapse>
       </div>
+    </div>
     </div>
   );
 };

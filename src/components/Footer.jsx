@@ -71,7 +71,7 @@ export function Footer() {
       <div className="absolute bottom-24 left-8 flex gap-4">
         {/* USA Flag Button */}
         <button
-          className="fixed text-3xl bottom-30 right-8 bg-white text-white p-4 rounded-full shadow-lg hover:bg-blue-300 transition-all"
+          className="fixed text-xl bottom-30 right-8 bg-white text-white p-4 rounded-full shadow-lg hover:bg-blue-300 transition-all"
           aria-label="USA"
         >
           🇺🇸
@@ -79,7 +79,7 @@ export function Footer() {
 
         {/* India Flag Button */}
         <button
-          className="fixed text-3xl bottom-50 right-8 bg-white text-white p-4 rounded-full shadow-lg hover:bg-green-400 transition-all"
+          className="fixed text-xl bottom-50 right-8 bg-white text-white p-4 rounded-full shadow-lg hover:bg-green-400 transition-all"
           aria-label="India"
         >
           🇮🇳
@@ -88,7 +88,7 @@ export function Footer() {
       {/* Scroll Up Button */}
       <button
         onClick={scrollToTop}
-        className="fixed text-3xl bottom-8 right-8 bg-blue-500 text-white p-4 rounded-full shadow-lg hover:bg-blue-600 transition-all"
+        className="fixed text-xl bottom-8 right-8 bg-blue-500 text-white p-4 rounded-[80%] shadow-lg hover:bg-blue-600 transition-all"
         aria-label="Scroll to top"
       >
         ↑

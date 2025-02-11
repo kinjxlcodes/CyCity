@@ -4,15 +4,17 @@ import { Link } from 'react-router-dom'
 
 export const Services = () => {
   return (
-    <section id="services" className="mx-auto max-w-7xl px-4 py-12 text-slate-800">
+    <div className="w-full bg-gradient-to-r from-[#0266CC] to-[#1A8EF4]">
+    <section id="services"  className="  mx-auto  max-w-7xl px-4 py-12 text-slate-900">
       <div className="mb-8 flex flex-col items-start justify-between gap-4 md:flex-row md:items-end md:px-8">
         <h2 className="max-w-lg text-4xl font-bold md:text-7xl">
           Grow faster with our
-          <span className="text-slate-400"> variety of solutions.</span>
+          <span className="text-slate-200"> variety of solutions.</span>
         </h2>
         <motion.button
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
+          href="#about"
           className="whitespace-nowrap rounded-lg bg-slate-900 px-4 py-2 font-medium text-white shadow-xl transition-colors hover:bg-slate-700"
         >
           Learn more
@@ -86,6 +88,7 @@ export const Services = () => {
         </BounceCard>
       </div>
     </section>
+    </div>
   );
 };
 

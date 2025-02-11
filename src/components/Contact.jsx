@@ -1,25 +1,28 @@
 import React from "react";
 import { Button, Typography } from "@material-tailwind/react";
+import seal1 from '../assets/DUNS-Registered-Seal.png'
+import seal2 from '../assets/apple-touch-icon.png'
 
 export function Contact() {
   return (
+    <div className="w-full bg-gradient-to-r from-[#0266CC] to-[#1A8EF4]">
     <section id="contact" className="px-8 py-8 lg:py-16 border-b-2">
       <div className="container mx-auto text-center">
         <Typography
           variant="h5"
           color="blue-gray"
-          className="mb-4 text-4xl font-bold md:text-7xl"
+          className="mb-4 text-slate-900 text-4xl font-bold md:text-7xl"
         >
           Contact Us
         </Typography>
         <Typography
           variant="h1"
           color="blue-gray"
-          className="mb-4 !text-3xl lg:!text-5xl"
+          className="mb-4 text-white !text-3xl lg:!text-5xl"
         >
           We&apos;re Here to Help
         </Typography>
-        <Typography className="mb-10 font-normal !text-lg lg:mb-10 mx-auto max-w-5xl !text-gray-500">
+        <Typography className="mb-10 font-normal !text-lg lg:mb-10 mx-auto max-w-5xl !text-black">
           Whether it&apos;s a question about our services, a request for
           technical assistance, or suggestions for improvement, our team is
           eager to hear from you.
@@ -33,12 +36,12 @@ export function Contact() {
               <div className="bg-[#0266CC] p-10 col-span-1 lg:col-span-2 flex flex-col items-center justify-between">
                 <div className="flex justify-between w-full mb-10">
                   <img
-                    src="src/assets/DUNS-Registered-Seal.png"
+                    src={seal1}
                     alt="Logo 1"
                     className="w-16 h-16"
                   />
                   <img
-                    src="src/assets/apple-touch-icon.png"
+                    src={seal2}
                     alt="Logo 2"
                     className="w-16 h-16"
                   />
@@ -138,6 +141,7 @@ export function Contact() {
         </div>
       </div>
     </section>
+    </div>
   );
 }
 
